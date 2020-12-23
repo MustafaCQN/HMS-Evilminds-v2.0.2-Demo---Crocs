@@ -1,0 +1,1289 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-m84161586
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [20201221 9:53:30] Next license update check is after 2020-12-22T06:21:46
+
+Built from '2019.4/release' branch; Version is '2019.4.0f1 (0af376155913) revision 717686'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16197 MB
+[Licensing::Module] Serial number assigned to: "F4-2U2E-93KF-2F8F-74J9-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity Editors\2019.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Projects/UDPDemoHMSCrocs
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+64817
+Successfully changed project path to: D:/Unity Projects/UDPDemoHMSCrocs
+D:/Unity Projects/UDPDemoHMSCrocs
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 544.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.0f1 (0af376155913)
+[Subsystems] Discovering subsystems at path D:/Unity Editors/2019.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/UDPDemoHMSCrocs/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     8098 MB
+    Driver:   26.20.100.7926
+Initialize mono
+Mono path[0] = 'D:/Unity Editors/2019.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editors/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Editors/2019.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.024508 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.633 seconds
+Registering precompiled user dll's ...
+Registered in 0.136484 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2019.4.0f1]
+UnityIAP: Current Build is Android:Android
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1913 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.449100 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.094200 ms MarkObjects: 1.791700 ms  DeleteObjects: 0.139800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UnityAds/UnityEngine.Monetization.Android.dll
+  artifactKey: Guid(fac2c311cb89d4bfeafd9d2e6b5bfa39) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Monetization.Android.dll using Guid(fac2c311cb89d4bfeafd9d2e6b5bfa39) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4dbfd53c8b0194c4099e86ba7ff96c90.asset.1.index for Assets/UnityAds/UnityEngine.Monetization.Android.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Monetization.Android.dll' (target hash: '575de65307ac114adbd3cecf52750f17') in 0.239280 seconds
+  Import took 0.247116 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll
+  artifactKey: Guid(0a03ddbc80219400fb5638963648dbfb) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll using Guid(0a03ddbc80219400fb5638963648dbfb) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bff843e10a97aa249ae1bf32c02e69db.asset.1.index for Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll' (target hash: '186b89142d7f79f7a473dc04bdfb2b5f') in 0.014440 seconds
+  Import took 0.020208 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Plugins/UnityPurchasing/Editor/UnityIAPInstaller.cs
+  artifactKey: Guid(629db7ac22afa4b5fa3ad493dfc27cb5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/Editor/UnityIAPInstaller.cs using Guid(629db7ac22afa4b5fa3ad493dfc27cb5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7fb3d89cc61a791448af56bac57f76fe.asset.1.index for Assets/Plugins/UnityPurchasing/Editor/UnityIAPInstaller.cs with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/Editor/UnityIAPInstaller.cs' (target hash: 'd2aaea23e7ee1be6b18b5cc16bdc4828') in 0.050457 seconds
+  Import took 0.057066 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDirPost.csv
+  artifactKey: Guid(02e6140ef66944c8d9ecc7cdc3a950f6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDirPost.csv using Guid(02e6140ef66944c8d9ecc7cdc3a950f6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9e52ba8cdae56b74ab8dad3d028c5ced.asset.1.index for Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDirPost.csv with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDirPost.csv' (target hash: '1951e172d3bca00aa42826cc788b23c0') in 0.041592 seconds
+  Import took 0.048833 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/UnityAds/UnityEngine.Advertisements.iOS.dll
+  artifactKey: Guid(d6f3e2ade30154a80a137e0079f66a08) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Advertisements.iOS.dll using Guid(d6f3e2ade30154a80a137e0079f66a08) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/60d220bb57b19ca45a262224f238c941.asset.1.index for Assets/UnityAds/UnityEngine.Advertisements.iOS.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Advertisements.iOS.dll' (target hash: '595745985a65b858dc5b4fccb4c5c495') in 0.013808 seconds
+  Import took 0.020548 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Scripts/AdManager.cs
+  artifactKey: Guid(67d84e60ba152c948a3a186f328cebc1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/AdManager.cs using Guid(67d84e60ba152c948a3a186f328cebc1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5ddd3aec334583f4fb43ce6c5ba7aa5f.asset.1.index for Assets/Scripts/AdManager.cs with Types
+Done importing asset: 'Assets/Scripts/AdManager.cs' (target hash: '25c4659da0210ac747a3a42aa78d00e3') in 0.012509 seconds
+  Import took 0.018850 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/LICENSE.txt
+  artifactKey: Guid(9b6a992086a044e44b4973bbf2764f7f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/LICENSE.txt using Guid(9b6a992086a044e44b4973bbf2764f7f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/8fbbd93b15f5fee48817b2a364146a4f.asset.1.index for Assets/LICENSE.txt with Types
+Done importing asset: 'Assets/LICENSE.txt' (target hash: 'ba4e75ffaa6fd8a7849106f0a48a85f9') in 0.020955 seconds
+  Import took 0.028076 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Plugins/UnityPurchasing/ETag
+  artifactKey: Guid(7f1556d3ec9ded74aaaba0ccf88c3776) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/ETag using Guid(7f1556d3ec9ded74aaaba0ccf88c3776) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9ce608f051a76ee4daa2703fba5a107c.asset.1.index for Assets/Plugins/UnityPurchasing/ETag with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/ETag' (target hash: '581a78abd2552161aa0dd0ba5965945a') in 0.015784 seconds
+  Import took 0.022772 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/UnityAds/SKAdNetworks
+  artifactKey: Guid(6e4d45e17ef414fb88dc243fd1fcfd24) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/SKAdNetworks using Guid(6e4d45e17ef414fb88dc243fd1fcfd24) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/16022322c1e330147bc723a917a6ee69.asset.1.index for Assets/UnityAds/SKAdNetworks with Types
+Done importing asset: 'Assets/UnityAds/SKAdNetworks' (target hash: 'a2a77dfb74230daa67a50572ecff4485') in 0.016565 seconds
+  Import took 0.026211 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/UnityAds/UnityEngine.Advertisements.Editor.dll
+  artifactKey: Guid(56921141d53fd4a5888445107b1b1286) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Advertisements.Editor.dll using Guid(56921141d53fd4a5888445107b1b1286) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d8b15b96755b4a040908ca3c0183ad3b.asset.1.index for Assets/UnityAds/UnityEngine.Advertisements.Editor.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Advertisements.Editor.dll' (target hash: '4adcc4f864f5d26bef19e193e6bc7bcd') in 0.026917 seconds
+  Import took 0.038914 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDir.csv
+  artifactKey: Guid(22bd007f888b646858a9801c1a1cfb4c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDir.csv using Guid(22bd007f888b646858a9801c1a1cfb4c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/42067d4474004834e934f9484dc34b7e.asset.1.index for Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDir.csv with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/Editor/ObsoleteFilesOrDir.csv' (target hash: '2a1a0e4dc20b6c0f173c7e5346ed1881') in 0.020055 seconds
+  Import took 0.027700 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/UnityAds/UnityEngine.Monetization.Editor.dll
+  artifactKey: Guid(359c1658193684ede8df0929bb2e12ea) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Monetization.Editor.dll using Guid(359c1658193684ede8df0929bb2e12ea) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/278850d888ebc5d4c9587a1984a216d9.asset.1.index for Assets/UnityAds/UnityEngine.Monetization.Editor.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Monetization.Editor.dll' (target hash: 'b588ee416a0e05c6c23afc5920374153') in 0.017344 seconds
+  Import took 0.025694 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/UnityAds/link.xml
+  artifactKey: Guid(0998ac787a4314560a0e42092f861b3a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/link.xml using Guid(0998ac787a4314560a0e42092f861b3a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b39bfc0d35597404c809add578f96f86.asset.1.index for Assets/UnityAds/link.xml with Types
+Done importing asset: 'Assets/UnityAds/link.xml' (target hash: 'b6444756d0ad3c495f1b7bdee64a6747') in 0.034252 seconds
+  Import took 0.044016 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Plugins/UDP/Resources/UDP Settings.asset
+  artifactKey: Guid(a3da6bc00aefd0d4ea9903654b4ec700) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UDP/Resources/UDP Settings.asset using Guid(a3da6bc00aefd0d4ea9903654b4ec700) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1338e43583b773a43a2557679227a67a.asset.1.index for Assets/Plugins/UDP/Resources/UDP Settings.asset with Types
+Done importing asset: 'Assets/Plugins/UDP/Resources/UDP Settings.asset' (target hash: '608d3657026e92775a57ce5b94262ae7') in 0.029082 seconds
+  Import took 0.039015 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/UnityAds/UnityEngine.Monetization.iOS.dll
+  artifactKey: Guid(e6a818957610d426c825f75279b3b665) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Monetization.iOS.dll using Guid(e6a818957610d426c825f75279b3b665) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d2943d09468ebf74e824b8617431061e.asset.1.index for Assets/UnityAds/UnityEngine.Monetization.iOS.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Monetization.iOS.dll' (target hash: '6b361def4e522d9d8face4886dd6c3f0') in 0.016858 seconds
+  Import took 0.026933 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/Plugins/UnityPurchasing/UnityIAP.unitypackage
+  artifactKey: Guid(e6ae468c08f914b46b185a0935096f6c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/UnityIAP.unitypackage using Guid(e6ae468c08f914b46b185a0935096f6c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ebbefd0b7a72f6e4090a0c1d0a48ac4a.asset.1.index for Assets/Plugins/UnityPurchasing/UnityIAP.unitypackage with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/UnityIAP.unitypackage' (target hash: 'af9d13c32dd6ff52be49c77f0990c463') in 0.025090 seconds
+  Import took 0.034007 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(9d424abe9dd15d747927730264bcf8a9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/GameManager.cs using Guid(9d424abe9dd15d747927730264bcf8a9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/031d68097a66ed149b95c5713986393f.asset.1.index for Assets/Scripts/GameManager.cs with Types
+Done importing asset: 'Assets/Scripts/GameManager.cs' (target hash: 'c6b693abc260f65cf4d810f2174ebaa4') in 0.016752 seconds
+  Import took 0.028501 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Plugins/UnityPurchasing
+  artifactKey: Guid(2628f297056214eb5bfc03285c5c8e77) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing using Guid(2628f297056214eb5bfc03285c5c8e77) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f39a28c9370bb9e45bbe48da3fd6f70f.asset.1.index for Assets/Plugins/UnityPurchasing with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing' (target hash: '340e1edc13d3bdab4ddb01493eb26a82') in 0.025520 seconds
+  Import took 0.039131 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(ee11b2ed63fbb95479ebf53d8d01b8f3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/MainMenu.unity using Guid(ee11b2ed63fbb95479ebf53d8d01b8f3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/182b40168cd572747a6cdee754d4c1ef.asset.1.index for Assets/Scenes/MainMenu.unity with Types
+Done importing asset: 'Assets/Scenes/MainMenu.unity' (target hash: '9ba943647c81c59aaf246abc9c713e75') in 0.051604 seconds
+  Import took 0.063315 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/Plugins/UnityPurchasing/Editor/ObsoleteGUIDs.csv
+  artifactKey: Guid(5f656854625764520a236e0f8530cf5a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/Editor/ObsoleteGUIDs.csv using Guid(5f656854625764520a236e0f8530cf5a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d05346cbf1461ce4fad40643deefb2ad.asset.1.index for Assets/Plugins/UnityPurchasing/Editor/ObsoleteGUIDs.csv with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/Editor/ObsoleteGUIDs.csv' (target hash: '0c769d77a03a3cec8f1917da5cd2b7f6') in 0.017374 seconds
+  Import took 0.028657 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/UnityAds/UnityEngine.Advertisements.Android.dll
+  artifactKey: Guid(cad99f482ce25421196533fe02e6a13e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Advertisements.Android.dll using Guid(cad99f482ce25421196533fe02e6a13e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2b0b076dcf4c171469a7f781a3e7d846.asset.1.index for Assets/UnityAds/UnityEngine.Advertisements.Android.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Advertisements.Android.dll' (target hash: '4103f83145d031e74c737355341a2506') in 0.023184 seconds
+  Import took 0.032544 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fbdcd0e741e43cd4d9707dbf94bec6a2.asset.1.index for Assets/Scenes/Game.unity with Types
+Done importing asset: 'Assets/Scenes/Game.unity' (target hash: '9137b7ad94b384c5867f3f4c0d7ed052') in 0.017133 seconds
+  Import took 0.024940 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002013 seconds.
+  path: Assets/UnityAds/UnityAdsApiReference.pdf
+  artifactKey: Guid(624a8ed4930d04bc98ded03fe4910465) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityAdsApiReference.pdf using Guid(624a8ed4930d04bc98ded03fe4910465) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/903e2fba9870ed24a9a0bc2bb3e7c5fa.asset.1.index for Assets/UnityAds/UnityAdsApiReference.pdf with Types
+Done importing asset: 'Assets/UnityAds/UnityAdsApiReference.pdf' (target hash: '74b1ddcd746b49fd27edbfa8d96ca08a') in 0.032139 seconds
+  Import took 0.043384 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/UnityAds
+  artifactKey: Guid(46e858ed13626499ca11826cdfc29a3f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds using Guid(46e858ed13626499ca11826cdfc29a3f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3a93de14f7f906744ab257fffeebdbc8.asset.1.index for Assets/UnityAds with Types
+Done importing asset: 'Assets/UnityAds' (target hash: '0398221d719de3a82ea4bf246cc14a1d') in 0.016943 seconds
+  Import took 0.025124 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Resources/IAPProductCatalog.json
+  artifactKey: Guid(c36ea0500f9128d47a8f94f988645feb) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Resources/IAPProductCatalog.json using Guid(c36ea0500f9128d47a8f94f988645feb) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e59155f0a273e6d40bbd850a3bc71d17.asset.1.index for Assets/Resources/IAPProductCatalog.json with Types
+Done importing asset: 'Assets/Resources/IAPProductCatalog.json' (target hash: 'd124aacf18ba920a3170612922baf7c6') in 0.043292 seconds
+  Import took 0.056773 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004392 seconds.
+  path: Assets/Plugins/UnityPurchasing/Editor
+  artifactKey: Guid(beabab81fac9c4cfeb330a7a850aeccc) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Plugins/UnityPurchasing/Editor using Guid(beabab81fac9c4cfeb330a7a850aeccc) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cce1e26bfced37e438e75d5d3023c616.asset.1.index for Assets/Plugins/UnityPurchasing/Editor with Types
+Done importing asset: 'Assets/Plugins/UnityPurchasing/Editor' (target hash: 'fd3b9123e20824fc36300141ead67604') in 0.035009 seconds
+  Import took 0.058382 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll
+  artifactKey: Guid(7166c387502014892b69bef26f88b978) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll using Guid(7166c387502014892b69bef26f88b978) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/881ed9e9c8cf8884d97c413cf75557b9.asset.1.index for Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll with Types
+Done importing asset: 'Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll' (target hash: 'fdfb80aa2d408d4dc7f579f1dd2081f4') in 0.020127 seconds
+  Import took 0.028692 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002087 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Registering precompiled user dll's ...
+Registered in 0.159667 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.248800 ms (FindLiveObjects: 0.403500 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.648800 ms  DeleteObjects: 0.112100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002261 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.755 seconds
+Registering precompiled user dll's ...
+Registered in 0.177047 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 2.197300 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.079400 ms MarkObjects: 1.638200 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001327 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Registering precompiled user dll's ...
+Registered in 0.141779 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 1.816300 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.364200 ms  DeleteObjects: 0.094100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002096 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Registering precompiled user dll's ...
+Registered in 0.134073 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 4.170700 ms (FindLiveObjects: 0.589400 ms CreateObjectMapping: 0.238900 ms MarkObjects: 3.171300 ms  DeleteObjects: 0.169400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001769 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Registering precompiled user dll's ...
+Registered in 0.158459 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 2.311000 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.704300 ms  DeleteObjects: 0.109500 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001548 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Registering precompiled user dll's ...
+Registered in 0.105716 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 1.782300 ms (FindLiveObjects: 0.310900 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.301500 ms  DeleteObjects: 0.108700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 3.692200 ms (FindLiveObjects: 1.066100 ms CreateObjectMapping: 0.211900 ms MarkObjects: 2.257100 ms  DeleteObjects: 0.156200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003036 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.519 seconds
+Registering precompiled user dll's ...
+Registered in 0.164375 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.421300 ms (FindLiveObjects: 0.431300 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.761700 ms  DeleteObjects: 0.139300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002203 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.106 seconds
+Registering precompiled user dll's ...
+Registered in 0.191846 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 2.864600 ms (FindLiveObjects: 0.495600 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.102600 ms  DeleteObjects: 0.165600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003082 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.326 seconds
+Registering precompiled user dll's ...
+Registered in 0.198998 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 3.352300 ms (FindLiveObjects: 0.585200 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.428200 ms  DeleteObjects: 0.188100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002871 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.321 seconds
+Registering precompiled user dll's ...
+Registered in 0.158812 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.210500 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.605900 ms  DeleteObjects: 0.099300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002088 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.537 seconds
+Registering precompiled user dll's ...
+Registered in 0.212542 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 4.332300 ms (FindLiveObjects: 0.590400 ms CreateObjectMapping: 0.143000 ms MarkObjects: 3.326000 ms  DeleteObjects: 0.270800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003577 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.616 seconds
+Registering precompiled user dll's ...
+Registered in 0.230444 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 30.087200 ms (FindLiveObjects: 1.366100 ms CreateObjectMapping: 0.516400 ms MarkObjects: 14.033000 ms  DeleteObjects: 14.167500 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005790 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.944 seconds
+Registering precompiled user dll's ...
+Registered in 0.201509 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 2.732000 ms (FindLiveObjects: 0.530000 ms CreateObjectMapping: 0.148200 ms MarkObjects: 1.932900 ms  DeleteObjects: 0.120200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002587 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.671 seconds
+Registering precompiled user dll's ...
+Registered in 0.171133 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 4.044600 ms (FindLiveObjects: 0.570800 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.623200 ms  DeleteObjects: 0.725400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004182 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 161.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.205 seconds
+Registering precompiled user dll's ...
+Registered in 0.221817 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2393.
+Total: 2.745600 ms (FindLiveObjects: 0.645700 ms CreateObjectMapping: 0.129200 ms MarkObjects: 1.812700 ms  DeleteObjects: 0.156900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002116 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.934 seconds
+Registering precompiled user dll's ...
+Registered in 0.188502 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2399.
+Total: 2.994800 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.167500 ms  DeleteObjects: 0.126600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002933 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.923 seconds
+Registering precompiled user dll's ...
+Registered in 0.180029 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 2.415600 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.094900 ms MarkObjects: 1.753100 ms  DeleteObjects: 0.118400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002210 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.873 seconds
+Registering precompiled user dll's ...
+Registered in 0.204506 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 2.451900 ms (FindLiveObjects: 0.541700 ms CreateObjectMapping: 0.096800 ms MarkObjects: 1.695100 ms  DeleteObjects: 0.117300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002142 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.603 seconds
+Registering precompiled user dll's ...
+Registered in 0.222865 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 3.575500 ms (FindLiveObjects: 0.615600 ms CreateObjectMapping: 0.186000 ms MarkObjects: 2.497000 ms  DeleteObjects: 0.275700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002297 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.059 seconds
+Registering precompiled user dll's ...
+Registered in 0.227825 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2423.
+Total: 2.932800 ms (FindLiveObjects: 0.519700 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.090600 ms  DeleteObjects: 0.192600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002790 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.264 seconds
+Registering precompiled user dll's ...
+Registered in 0.247400 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.367 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2429.
+Total: 4.149600 ms (FindLiveObjects: 0.665300 ms CreateObjectMapping: 0.174900 ms MarkObjects: 3.122900 ms  DeleteObjects: 0.184400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002492 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.964 seconds
+Registering precompiled user dll's ...
+Registered in 0.225351 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 6.953600 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.144800 ms MarkObjects: 5.945000 ms  DeleteObjects: 0.189100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002857 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.107 seconds
+Registering precompiled user dll's ...
+Registered in 0.248145 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2441.
+Total: 3.840100 ms (FindLiveObjects: 0.669000 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.789700 ms  DeleteObjects: 0.183400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002512 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.294 seconds
+Registering precompiled user dll's ...
+Registered in 0.195459 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.026 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 3.496400 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.777600 ms  DeleteObjects: 0.153900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2019.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002775 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.681 seconds
+Registering precompiled user dll's ...
+Registered in 0.293271 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\UDPDemoHMSCrocs\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.205 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2453.
+Total: 2.517400 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.091400 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.113200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
