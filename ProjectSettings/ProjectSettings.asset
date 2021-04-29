@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: HUAWEI
-  productName: Crocs HMS UDP
+  productName: Crocs HMS Plugin v2.0
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -166,6 +166,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.hms.referenceapp.crocs.huawei
+    Standalone: com.CrocsHMSPluginv2.0.HUAWEI
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 21
@@ -244,8 +245,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{dedicated}: user.keystore'
-  AndroidKeyaliasName: crocshmsudpdemo
+  AndroidKeystoreName: C:/.Keys/crocs.keystore
+  AndroidKeyaliasName: crocs
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -671,11 +672,11 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Build: 1
-    Collab: 1
+    Build: 0
+    Collab: 0
     ErrorHub: 0
     Hub: 0
-    UNet: 1
+    UNet: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -688,10 +689,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 110382a6-b733-425f-a094-c40e46c3b41a
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: Crocs HMS UDP
-  organizationId: mcqn
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

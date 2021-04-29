@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Analytics;
 using UnityEngine.UI;
+using HmsPlugin;
 
 public class Player : MonoBehaviour
 {
@@ -131,17 +131,10 @@ public class Player : MonoBehaviour
             losePanel.SetActive(true);
             // destroy player
             Destroy(gameObject);
-            SendAnalytics(DeltaTime);
-        }
-    }
 
-    public void SendAnalytics(float GameTime)
-    {
-        AnalyticsResult result = Analytics.CustomEvent("EndGame", new Dictionary<string, object>
-        {
-            { "GameTime", GameTime }
-        });
-        Debug.Log("AnalyticsResult:" + result);
+            // Send Leaderboard
+            HMSLeaderboardManager.Instance.SubmitScore(HMSLeaderboardConstants.TimeLeaderboard, (long)DeltaTime);
+        }
     }
 
     public void AnimateForMobile()

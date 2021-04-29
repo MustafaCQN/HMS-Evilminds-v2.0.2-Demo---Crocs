@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{656EC774-46A1-F7D8-B10B-14BAE8A19ED3}</ProjectGuid>
+    <ProjectGuid>{A24F7133-9F3D-EBFC-819D-9627F9AE42D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_0;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_0;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -63,7 +63,91 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UDPInstaller\Editor\UdpInstaller.cs" />
+    <Compile Include="Assets\Editor\HMSUnityPackageCreator.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\ActionExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\CollectionExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\WindowExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Button.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Clickable.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Collections\IReadOnlyList.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\ConditionalDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\CustomEditorDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Depth.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\DisabledDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\EnumDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\IDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\StringDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Focusable.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Foldout.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\HelpBox.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\RichHelpBox.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HorizontalLine.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\IDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\InlineGroup.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Label\DelegatedLabel.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Label\Label.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\List\AlteratingListDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\List\ListDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\LongProcess.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\EditableMenu.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\Menu.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\PersistentFoldout.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\ScrollView\ScrollView.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\EmptySequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\HorizontalSequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\SequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\VerticalSequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Space.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Spacer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabBar.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabView.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\ReturnChecker.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextField.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextFieldWithAccept.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TimedDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\Toggle.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\ToggledTextFieldWithButton.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\DisplayDialog.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\HMSEditorWindow.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\ModalDialog.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\ModalWindow.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleFixer.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleWorker.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\AdsTab\HMSAdsSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\AdsTab\HMSAdsTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\AchievementsManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSAchievementsAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSGameServiceSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSGameServiceTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSLeaderboardAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\LeaderboardManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPProductAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\IAPProductManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AccountToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AdsToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AnalyticsToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AppMessagingToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AuthToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CloudDBToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CrashToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\DriveKitToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\GameServiceToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HMSMainKitsTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HMSMainWindow.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HelpboxAGConnectFile.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\IAPToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\NearbyServiceToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\PushToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\RemoteConfigToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\DefaultValueManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\Utils\ICollectionManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\Utils\WindowEditRedirect.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity Editors/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -262,17 +346,11 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UDP">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/PackageCache/com.unity.purchasing.udp@2.0.0/Runtime/UDP.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+    <Reference Include="HuaweiMobileServices">
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Assets/Huawei/Dlls/HuaweiMobileServices.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity Editors/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -629,104 +707,100 @@
       <HintPath>D:/Unity Editors/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.purchasing.udp.Editor">
-      <HintPath>D:/Unity Projects/Udemy Game/Library/ScriptAssemblies/com.unity.purchasing.udp.Editor.dll</HintPath>
+    <Reference Include="com.unity.quicksearch">
+      <HintPath>C:/Users/m00598979/Desktop/HMS Game Plugin 2.0/HMSUDPDemo-Crocs/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9A0F2B65-A1D8-2F32-2BEF-486B6B93CC36}</Project>
+      <Project>{36A0BBD0-A6AB-99F8-74AA-D3C770F78878}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{9FD1DA5E-095F-F605-63F1-10513C1E0D99}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

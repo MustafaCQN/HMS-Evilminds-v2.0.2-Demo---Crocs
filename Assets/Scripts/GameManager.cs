@@ -1,83 +1,65 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using HmsPlugin;
+using HuaweiMobileServices.Id;
+using HuaweiMobileServices.Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UDP;
 
 public class GameManager : MonoBehaviour
 {
 
-    InitListener initListener;
-    private const string AdFreeIAPID = "ad_free";
+    public GameObject MainPanel;
+    public GameObject LeaderboardPanel;
+    public GameObject AchievementsPanel;
 
+    private void Start()
+    {
+        HMSGameManager.Instance.Init();
+    }
 
     public void PlayGame ()
     {
         SceneManager.LoadScene("Game");
     }
 
-    public void RemoveAds ()
+    public void SignSucc(AuthAccount acc)
     {
-        initListener = new InitListener();
-        StoreService.Initialize(initListener);
+        Debug.LogError("Account has been signed in: " + acc.DisplayName);
     }
 
-    private class InitListener : IInitListener
+    public void SignFail(HMSException ex)
     {
-
-        PurchaseListener purchaseListener;
-
-        public void OnInitialized(UserInfo userInfo)
-        {
-            Debug.Log("OnInitialized");
-            purchaseListener = new PurchaseListener();
-            StoreService.QueryInventory(purchaseListener);
-            // EDIT StoreService.Purchase()
-            // Purchase(<IAP product ID>, <Payload message>, <PurchaseListener instance>)
-            StoreService.Purchase(AdFreeIAPID, "Information from buying user", purchaseListener);
-        }
-
-        public void OnInitializeFailed(string message)
-        {
-            throw new System.NotImplementedException();
-        }
+        Debug.LogError("Sign in Failed with This exception Code: " + ex.ErrorCode + " and this exception message: " + ex.Message);
     }
 
-    private class PurchaseListener : IPurchaseListener
+    public void OpenMainMenu()
     {
-        public void OnPurchase(PurchaseInfo purchaseInfo)
-        {
-            Debug.Log("Purchased! prodId: " + purchaseInfo.ProductId);
-        }
-
-        public void OnPurchaseConsume(PurchaseInfo purchaseInfo)
-        {
-            Debug.Log("OnPurchaseConsume prodId: " + purchaseInfo.ProductId);
-        }
-
-        public void OnPurchaseConsumeFailed(string message, PurchaseInfo purchaseInfo)
-        {
-            Debug.Log("OnPurchaseConsumeFailed message: " + message + ", prodId: " + purchaseInfo.ProductId);
-        }
-
-        public void OnPurchaseFailed(string message, PurchaseInfo purchaseInfo)
-        {
-            Debug.Log("OnPurchaseFailed  message: " + message + ", prodId: " + purchaseInfo.ProductId);
-        }
-
-        public void OnPurchaseRepeated(string productId)
-        {
-            Debug.Log("OnPurchaseRepeated prodId: " + productId);
-        }
-
-        public void OnQueryInventory(Inventory inventory)
-        {
-            Debug.Log("OnQueryInventory isInventoryEmpty: " + inventory.Equals(null));
-        }
-
-        public void OnQueryInventoryFailed(string message)
-        {
-            Debug.Log("OnQueryInventoryFailed message: " + message);
-        }
+        SceneManager.LoadScene("MainMenu");
     }
+
+    public void ShowAchievements()
+    {
+
+        HMSAchievementsManager.Instance.OnShowAchievementsSuccess = AchSuc;
+        HMSAchievementsManager.Instance.OnShowAchievementsFailure = AchFail;
+        HMSAchievementsManager.Instance.ShowAchievements();
+        
+    }
+
+    public void AchSuc()
+    {
+        Debug.LogError("Achievement Showing Success");
+    }
+
+    public void AchFail(HMSException ex)
+    {
+        Debug.LogError("Achievement Showing Failed, ex: " + ex.ErrorCode + " Message: " + ex.Message);
+
+    }
+
+    public void ShowLeaderboard()
+    {
+
+        HMSLeaderboardManager.Instance.ShowLeaderboards();
+    }
+
 }

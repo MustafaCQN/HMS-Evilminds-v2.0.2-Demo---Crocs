@@ -1,14 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AdManager
     - Enemy
     - GameManager
+    - HMSAnalyticsManager
+    - HMSCrashManager
+    - HmsPlugin.HMSAccountManager
+    - HmsPlugin.HMSAchievementsManager
+    - HmsPlugin.HMSGameManager
+    - HmsPlugin.HMSLeaderboardManager
+    - HmsPlugin.HMSSaveGameManager
+    - HmsPlugin.SettingsScriptableObject
     - Player
     - Spawner
-    - UserReportingScript
-    UDP.dll:
-    - UnityEngine.UDP.AppStoreSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -17,8 +21,17 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatConsoleWindow
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -34,15 +47,9 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.Mask
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
-    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -72,43 +79,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 11184}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11556}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12212}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12294}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12376}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 14126}
+      Script: {instanceID: 12880}
     - Class: 114
-      Script: {instanceID: 14494}
+      Script: {instanceID: 13622}
     - Class: 114
-      Script: {instanceID: 14708}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14824}
+      Script: {instanceID: 14092}
     - Class: 114
-      Script: {instanceID: 14866}
+      Script: {instanceID: 14658}
     - Class: 114
-      Script: {instanceID: 14890}
+      Script: {instanceID: 14738}
+    - Class: 114
+      Script: {instanceID: 14826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -150,22 +159,48 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 11184}
     - Class: 114
-      Script: {instanceID: 11556}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 14126}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 14708}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 14866}
+      Script: {instanceID: 12222}
+    - Class: 114
+      Script: {instanceID: 12376}
+    - Class: 114
+      Script: {instanceID: 12436}
+    - Class: 114
+      Script: {instanceID: 12642}
+    - Class: 114
+      Script: {instanceID: 12880}
+    - Class: 114
+      Script: {instanceID: 13622}
+    - Class: 114
+      Script: {instanceID: 13642}
+    - Class: 114
+      Script: {instanceID: 14092}
+    - Class: 114
+      Script: {instanceID: 14416}
+    - Class: 114
+      Script: {instanceID: 14478}
+    - Class: 114
+      Script: {instanceID: 14658}
+    - Class: 114
+      Script: {instanceID: 14738}
+    - Class: 114
+      Script: {instanceID: 14826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -173,6 +208,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -189,10 +226,28 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSGameManager
+  - hash:
+      serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 4dee7969d7ec154fa13b40cd4e77de45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AccountDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSLeaderboardManager
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -207,22 +262,10 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 89c66b8d970f949a1422a872e845ec59
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AdManager
-  - hash:
-      serializedVersion: 2
       Hash: 626925ef558787b2d85c809198164d19
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 88e2c6f501bf5dead831a3e44c30de40
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Platform.Editor
-    className: BannerPlaceholder
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -259,12 +302,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -345,6 +382,12 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSAccountManager
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -381,28 +424,10 @@ ScriptsOnlyBuild:
     className: PixelPerfectCamera
   - hash:
       serializedVersion: 2
-      Hash: cbe9b39ad540c96208a018691ff0bdfa
-    assemblyName: UDP.dll
-    namespaceName: UnityEngine.UDP
-    className: AppStoreSettings
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UDP.dll
-    namespaceName: UnityEngine.UDP.Common
-    className: ApptuttiSdkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UDP.dll
-    namespaceName: UnityEngine.UDP
-    className: MainThreadDispatcher
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UDP.dll
-    namespaceName: UnityEngine.UDP
-    className: UdpGameManager
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloudDBDemo
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -411,10 +436,28 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 3bb1b4bae6823a4524e793cdb8702970
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IapDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSAchievementsManager
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -427,6 +470,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
+  - hash:
+      serializedVersion: 2
+      Hash: 3293a84ba31c1adb817d0b645baa39fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AuthServiceDemo
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -477,6 +526,36 @@ ScriptsOnlyBuild:
     className: Spawner
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSIAPManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RemoteConfigDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HMSAnalyticsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NearbyDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HMSAdsKitManager
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -496,9 +575,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HMSCrashManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HMSAppMessagingManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -508,21 +599,27 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserReportingConfigureOnly
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Monetization.dll
-    namespaceName: UnityEngine.Monetization
-    className: Placeholder
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSSafeArea
+  - hash:
+      serializedVersion: 2
+      Hash: 3deb19b3eaf6c420ac34c5dfeff1a25c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: AnalyticsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSPushKitManager
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -537,16 +634,16 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: b5a762b92b14f40fca31f86fc2a3a46c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PushDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserReportingXRExtensions
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -603,6 +700,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSAuthServiceManager
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -621,34 +724,16 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Utilities
-    className: ApplicationQuit
-  - hash:
-      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: dc068ce8a8db47f927c2d8d37b8d41b6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserReportingMonitor
-  - hash:
-      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 58f821ff20d9b699782197cb7c2a8849
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FramerateMonitor
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -663,10 +748,22 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 12ad39cfc316d43b919309e56da3e646
+      Hash: 156dfb3dc274fbe9dabb5d0348ca8005
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: SettingsScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0404b3051ce4d88c6012a56bc1629697
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSNearbyServiceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UserReportingScript
+    className: HMSRemoteConfigManager
   - hash:
       serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
@@ -681,10 +778,22 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: bad32a3290e9e45e05eb57f38e567331
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdsDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSCloudDBManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -693,7 +802,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c38e874f5d3d9750acf48ab9a2b8243a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -709,6 +818,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HmsPlugin
+    className: HMSSaveGameManager
   - hash:
       serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
@@ -759,12 +874,6 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: a325152ad9563ed900af221c132fea36
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Utilities
-    className: CoroutineExecutor
-  - hash:
-      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -779,4 +888,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: D:/Unity Projects/Udemy Game/build/crocs.apk
+  playerPath: D:/Unity Projects/Udemy Game/build/crocs2.0.apk
